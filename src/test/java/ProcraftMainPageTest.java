@@ -94,7 +94,7 @@ public class ProcraftMainPageTest extends BaseTest{
     @Description("Appears Login Test")
     @Owner("Oleksandr")
     @Issue("PRO-5")
-    public void apperasLoginTest() {
+    public void appearsLoginTest() {
         WebElement loginButton = helper.findElement(driver, page.LOGIN_BUTTON);
         helper.moveToWebElement(loginButton);
         helper.clickOnWebElement(loginButton);
